@@ -1,0 +1,11 @@
+API key sharing is prohibited therefor I have left it out of the program code.
+You can obtain your own personal free weather data API from https://openweathermap.org/
+It is necessary in order for the program to run successfully.
+To get your API you need to navigate to https://openweathermap.org/ and create an account if you do not have one already.
+After creating your account you can get a free key by clicking on your profile and navigating to "my API keys".
+A key should have been automatically generated for you after having signed up but if it did not then click "generate".
+Once your API key is generated, test to see if it is activated by navigating to "https://api.openweathermap.org/data/2.5/weather?q=Omaha,us&appid=PASTEYOURKEYHERE"
+If you get an error message that says "Invalid API KEY" you have to wait a little bit and try again until it becomes activated and you are able to see the raw data.
+If you keep trying and keep getting the "Invalid API KEY" error, go back to https://openweathermap.org/ and generate a new account and try again.
+After making sure that your key is active, return to app_gui.py and paste your key in the self.api_key variable on line 204 after "&appid=" that currently has place-holder of XxXxXxX.
+Thank you.
