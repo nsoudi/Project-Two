@@ -201,7 +201,7 @@ class GUI:
         # Please obtain your own personal free weather data API from https://openweathermap.org/
         # It is necessary in order for the program to run successfully.
         # I have left further detailed instructions in the "obtainAPI.txt".
-        self.api_key = "&appid=c11e530e965174a8742b2b2539aa8a85"
+        self.api_key = "&appid=XxXxXxX"
 
         try:
             zip = int(self.entry_city.get())
